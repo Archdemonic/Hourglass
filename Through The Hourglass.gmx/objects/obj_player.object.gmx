@@ -472,6 +472,8 @@ lives += 1
 {
     x += 6
     sprite_index = spr_candyKnightWalk
+    global.playerRight = true
+    global.playerLeft = false
 }
 </string>
           </argument>
@@ -531,6 +533,8 @@ lives += 1
 {
     x -= 6
     sprite_index = spr_candyKnightWalk
+    global.playerLeft = true
+    global.playerRight = false
 }
 </string>
           </argument>
