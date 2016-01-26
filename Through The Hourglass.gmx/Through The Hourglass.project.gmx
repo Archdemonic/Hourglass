@@ -151,6 +151,7 @@
     <background>background\background17</background>
     <background>background\background18</background>
     <background>background\background19</background>
+    <background>background\background21</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -176,7 +177,6 @@
     <object>objects\obj_sandwichKnight_Incomplete_</object>
     <objects name="Enviornmental">
       <object>objects\obj_tomato</object>
-      <object>objects\obj_tomatoPlaced</object>
     </objects>
     <objects name="Control">
       <object>objects\obj_boarder</object>
