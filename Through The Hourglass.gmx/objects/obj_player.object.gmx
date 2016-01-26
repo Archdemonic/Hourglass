@@ -33,6 +33,9 @@ candyDefault = spr_staminaCandy
 x2 = x
 y2 = y
 bomb = false
+global.playerRight = true
+global.playerLeft = false
+global.moving = false
 </string>
           </argument>
         </arguments>
@@ -418,6 +421,7 @@ lives += 1
 {
     y -= 6
     sprite_index = spr_candyKnightWalk
+    global.moving = true
 }
 </string>
           </argument>
@@ -445,6 +449,7 @@ lives += 1
 {
     y += 6
     sprite_index = spr_candyKnightWalk
+    global.moving = true
 }
 </string>
           </argument>
@@ -474,6 +479,7 @@ lives += 1
     sprite_index = spr_candyKnightWalk
     global.playerRight = true
     global.playerLeft = false
+    global.moving = true
 }
 </string>
           </argument>
@@ -535,6 +541,7 @@ lives += 1
     sprite_index = spr_candyKnightWalk
     global.playerLeft = true
     global.playerRight = false
+    global.moving = true
 }
 </string>
           </argument>
@@ -591,6 +598,7 @@ lives += 1
           <argument>
             <kind>1</kind>
             <string>sprite_index = spr_candyKnightIdle
+global.moving = false
 </string>
           </argument>
         </arguments>

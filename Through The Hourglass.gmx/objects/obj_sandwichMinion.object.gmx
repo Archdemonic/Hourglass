@@ -25,9 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>stop = false
-myx = 0
-myy = 0
+            <string>//Comment
 </string>
           </argument>
         </arguments>
@@ -50,18 +48,32 @@ myy = 0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if stop = false
+            <string>if global.playerRight = true
 {
-    move_towards_point(obj_player.x-48,obj_player.y,6)
-}
-
-if myx = obj_player.x-48
-{
-    stop = true
+    if global.moving = true
+    {
+        move_towards_point(obj_player.x-48,obj_player.y,6)
+    }
 }
 else
+if global.playerLeft = true
 {
-    stop = false
+    if global.moving = true
+    {
+        move_towards_point(obj_player.x+48,obj_player.y,6)
+    }
+}
+
+if global.moving = false &amp;&amp; global.playerRight = true
+{
+    x = obj_player.x-48
+    y = obj_player.y
+}
+else
+if global.moving = false &amp;&amp; global.playerLeft = true
+{
+    x = obj_player.x+48
+    y = obj_player.y
 }
 </string>
           </argument>
