@@ -96,7 +96,11 @@
         <sprite>sprites\sprite83_sprite117_0</sprite>
         <sprite>sprites\sprite96</sprite>
         <sprite>sprites\sprite97</sprite>
+        <sprite>sprites\sprite98</sprite>
         <sprite>sprites\sprite95</sprite>
+        <sprite>sprites\sprite99</sprite>
+        <sprite>sprites\sprite101</sprite>
+        <sprite>sprites\sprite100</sprite>
       </sprites>
       <sprite>sprites\spr_tomatoeEx</sprite>
       <sprite>sprites\spr_meltedIce</sprite>
@@ -121,7 +125,6 @@
       <sprite>sprites\spr_boarder</sprite>
       <sprite>sprites\spr_polymorphicTri</sprite>
     </sprites>
-    <sprite>sprites\sprite98</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Counter Tiles">
