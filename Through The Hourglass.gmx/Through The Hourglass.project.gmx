@@ -107,7 +107,6 @@
     <sprite>sprites\sprite87_sprite101_3</sprite>
     <sprite>sprites\sprite88_sprite101_4</sprite>
     <sprite>sprites\sprite89_sprite101_5</sprite>
-    <sprite>sprites\bob</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Counter Tiles">
