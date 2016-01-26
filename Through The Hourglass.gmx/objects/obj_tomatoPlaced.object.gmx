@@ -25,10 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed = 0
-image_index = 0
-explode = true
-alarm[0] = room_speed*5
+            <string>alarm[0] = room_speed*5
 </string>
           </argument>
         </arguments>
@@ -51,10 +48,7 @@ alarm[0] = room_speed*5
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if explode = true
-{
-    image_speed = 0.5
-}
+            <string>image_speed = 0.5
 </string>
           </argument>
         </arguments>
