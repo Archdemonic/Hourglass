@@ -52,7 +52,7 @@ myy = 0
             <kind>1</kind>
             <string>if stop = false
 {
-    move_towards_point(obj_player.x-48,obj_player.y,3)
+    move_towards_point(obj_player.x-48,obj_player.y,6)
 }
 
 if myx = obj_player.x-48
