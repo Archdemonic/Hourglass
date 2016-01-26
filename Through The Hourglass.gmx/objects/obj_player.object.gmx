@@ -36,6 +36,7 @@ bomb = false
 global.playerRight = true
 global.playerLeft = false
 global.moving = false
+bob = 42
 </string>
           </argument>
         </arguments>
