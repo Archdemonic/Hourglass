@@ -71,6 +71,8 @@
       <sprite>sprites\spr_sandwichWalk</sprite>
       <sprite>sprites\spr_sandAttack2</sprite>
       <sprite>sprites\spr_sandIdle</sprite>
+      <sprite>sprites\sprite93</sprite>
+      <sprite>sprites\climb_ladder</sprite>
     </sprites>
     <sprites name="Enviornment">
       <sprites name="ground">
@@ -116,7 +118,6 @@
       <sprite>sprites\spr_boarder</sprite>
       <sprite>sprites\spr_polymorphicTri</sprite>
     </sprites>
-    <sprite>sprites\sprite93</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Counter Tiles">
