@@ -29,6 +29,7 @@
     <sprites name="Enemies">
       <sprite>sprites\spr_iceCube</sprite>
       <sprite>sprites\spr_boomerangFlower</sprite>
+      <sprite>sprites\boom_attack</sprite>
       <sprite>sprites\spr_jellyFish</sprite>
       <sprite>sprites\spr_pumpkinPlant</sprite>
       <sprite>sprites\spr_pumpkinHead</sprite>
@@ -36,14 +37,16 @@
       <sprite>sprites\spr_pot</sprite>
       <sprite>sprites\spr_cherryBomb</sprite>
       <sprite>sprites\spr_candyMan</sprite>
+      <sprite>sprites\attack</sprite>
+      <sprite>sprites\walk</sprite>
       <sprite>sprites\spr_blueberryBomb</sprite>
       <sprite>sprites\spr_fireball</sprite>
       <sprite>sprites\spr_ovenGuardian</sprite>
       <sprite>sprites\spr_ovenDeact</sprite>
-      <sprite>sprites\spr_pizza</sprite>
-      <sprite>sprites\spr_carrot</sprite>
-      <sprite>sprites\spr_jelloAttack</sprite>
       <sprite>sprites\spr_jelloWalk</sprite>
+      <sprite>sprites\spr_jelloAttack</sprite>
+      <sprite>sprites\drill_down</sprite>
+      <sprite>sprites\drill_up</sprite>
     </sprites>
     <sprites name="Minions">
       <sprite>sprites\spr_sandMinion</sprite>
@@ -65,15 +68,32 @@
       <sprite>sprites\spr_sandIdle</sprite>
     </sprites>
     <sprites name="Enviornment">
+      <sprites name="ground">
+        <sprite>sprites\spr_smallGround</sprite>
+        <sprite>sprites\spr_groundBig</sprite>
+        <sprite>sprites\spr_groundShades</sprite>
+        <sprite>sprites\sprite70_top_right_0</sprite>
+        <sprite>sprites\sprite71_top_left_0</sprite>
+        <sprite>sprites\sprite72_sprite118_0</sprite>
+        <sprite>sprites\sprite73_sprite119_0</sprite>
+        <sprite>sprites\sprite74_sprite120_0</sprite>
+        <sprite>sprites\sprite76_sprite123_0</sprite>
+        <sprite>sprites\sprite75_sprite122_0</sprite>
+        <sprite>sprites\sprite78_sprite125_0</sprite>
+        <sprite>sprites\sprite77_sprite124_0</sprite>
+        <sprite>sprites\sprite79_sprite113_0</sprite>
+        <sprite>sprites\sprite80_sprite114_0</sprite>
+        <sprite>sprites\sprite81_sprite115_0</sprite>
+        <sprite>sprites\sprite82_sprite116_0</sprite>
+        <sprite>sprites\spr_ground</sprite>
+        <sprite>sprites\sprite83_sprite117_0</sprite>
+      </sprites>
       <sprite>sprites\spr_tomatoeEx</sprite>
-      <sprite>sprites\spr_ground</sprite>
       <sprite>sprites\spr_meltedIce</sprite>
       <sprite>sprites\spr_interior</sprite>
-      <sprite>sprites\spr_groundShades</sprite>
       <sprite>sprites\spr_candle</sprite>
+      <sprite>sprites\anim</sprite>
       <sprite>sprites\spr_brocIsland</sprite>
-      <sprite>sprites\spr_smallGround</sprite>
-      <sprite>sprites\spr_groundBig</sprite>
       <sprite>sprites\spr_tree</sprite>
     </sprites>
     <sprites name="Story">
@@ -87,31 +107,6 @@
       <sprite>sprites\spr_boarder</sprite>
       <sprite>sprites\spr_polymorphicTri</sprite>
     </sprites>
-    <sprite>sprites\sprite70_top_right_0</sprite>
-    <sprite>sprites\sprite71_top_left_0</sprite>
-    <sprite>sprites\sprite72_sprite118_0</sprite>
-    <sprite>sprites\sprite73_sprite119_0</sprite>
-    <sprite>sprites\sprite74_sprite120_0</sprite>
-    <sprite>sprites\sprite75_sprite122_0</sprite>
-    <sprite>sprites\sprite76_sprite123_0</sprite>
-    <sprite>sprites\sprite77_sprite124_0</sprite>
-    <sprite>sprites\sprite78_sprite125_0</sprite>
-    <sprite>sprites\sprite79_sprite113_0</sprite>
-    <sprite>sprites\sprite80_sprite114_0</sprite>
-    <sprite>sprites\sprite81_sprite115_0</sprite>
-    <sprite>sprites\sprite82_sprite116_0</sprite>
-    <sprite>sprites\sprite83_sprite117_0</sprite>
-    <sprite>sprites\sprite84_sprite101_0</sprite>
-    <sprite>sprites\sprite85_sprite101_1</sprite>
-    <sprite>sprites\sprite86_sprite101_2</sprite>
-    <sprite>sprites\sprite87_sprite101_3</sprite>
-    <sprite>sprites\sprite88_sprite101_4</sprite>
-    <sprite>sprites\sprite89_sprite101_5</sprite>
-    <sprite>sprites\anim</sprite>
-    <sprite>sprites\sprite80</sprite>
-    <sprite>sprites\sprite81</sprite>
-    <sprite>sprites\sprite82</sprite>
-    <sprite>sprites\sprite83</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Counter Tiles">
