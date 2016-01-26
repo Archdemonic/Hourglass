@@ -146,9 +146,7 @@
     <background>background\background19</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts">
-    <script>scripts\scr_combat_new.gml</script>
-  </scripts>
+  <scripts name="scripts"/>
   <objects name="objects">
     <object>objects\obj_player</object>
     <objects name="obj_Enemies">
