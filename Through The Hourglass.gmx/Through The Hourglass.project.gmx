@@ -177,7 +177,6 @@
     <object>objects\obj_sandwichKnight_Incomplete_</object>
     <objects name="Enviornmental">
       <object>objects\obj_tomato</object>
-      <object>objects\obj_tomatoPlaced</object>
     </objects>
     <objects name="Control">
       <object>objects\obj_boarder</object>
