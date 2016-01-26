@@ -47,6 +47,11 @@
       <sprite>sprites\spr_jelloAttack</sprite>
       <sprite>sprites\drill_down</sprite>
       <sprite>sprites\drill_up</sprite>
+      <sprite>sprites\sprite88</sprite>
+      <sprite>sprites\sprite89</sprite>
+      <sprite>sprites\sprite90</sprite>
+      <sprite>sprites\sprite91</sprite>
+      <sprite>sprites\sprite92</sprite>
     </sprites>
     <sprites name="Minions">
       <sprite>sprites\spr_sandMinion</sprite>
@@ -97,6 +102,10 @@
       <sprite>sprites\spr_tree</sprite>
     </sprites>
     <sprites name="Story">
+      <sprite>sprites\sprite86</sprite>
+      <sprite>sprites\sprite85</sprite>
+      <sprite>sprites\sprite84</sprite>
+      <sprite>sprites\sprite87</sprite>
       <sprite>sprites\spr_gemObjective</sprite>
       <sprite>sprites\spr_gemWall</sprite>
     </sprites>
@@ -107,6 +116,7 @@
       <sprite>sprites\spr_boarder</sprite>
       <sprite>sprites\spr_polymorphicTri</sprite>
     </sprites>
+    <sprite>sprites\sprite93</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Counter Tiles">
