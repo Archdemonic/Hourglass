@@ -771,7 +771,7 @@ if bomb = true
             <kind>1</kind>
             <string>if bomb = true
 {
-    instance_create(x,y+24,obj_tomato)
+    instance_create(x,y+24,obj_tomatoPlaced)
     bomb = false
 }
 </string>
