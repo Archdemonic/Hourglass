@@ -125,6 +125,7 @@
       <sprite>sprites\spr_boarder</sprite>
       <sprite>sprites\spr_polymorphicTri</sprite>
     </sprites>
+    <sprite>sprites\sprite102</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Counter Tiles">
