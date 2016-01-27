@@ -125,7 +125,7 @@
       <sprite>sprites\spr_boarder</sprite>
       <sprite>sprites\spr_polymorphicTri</sprite>
     </sprites>
-    <sprite>sprites\spr_pickle</sprite>
+    <sprite>sprites\spr_pickler</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Counter Tiles">
@@ -155,7 +155,6 @@
     <background>background\background21</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts"/>
   <objects name="objects">
     <object>objects\obj_player</object>
     <objects name="obj_Enemies">
