@@ -146,7 +146,7 @@ if mouse_check_button_pressed(mb_left) &amp;&amp; global.stamina &gt; 0
     }
 }
 
-if collision_circle(x,y,100,obj_explosion,true,true)
+if collision_circle(x,y,80,obj_explosion,true,true)
 {
     hp -= 50
 }

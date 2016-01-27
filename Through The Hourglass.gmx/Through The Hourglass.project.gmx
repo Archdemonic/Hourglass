@@ -191,7 +191,6 @@
       <object>objects\obj_sandwichMinion</object>
     </objects>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
     <rooms name="Menu(s)">
       <room>rooms\Menu</room>

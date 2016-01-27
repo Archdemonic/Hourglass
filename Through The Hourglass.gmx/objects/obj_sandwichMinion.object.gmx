@@ -75,6 +75,16 @@ if global.moving = false &amp;&amp; global.playerLeft = true
     x = obj_player.x+48
     y = obj_player.y
 }
+
+if global.playerRight = true
+{
+    image_xscale = 1
+}
+
+if global.playerLeft = true
+{
+    image_xscale = -1
+}
 </string>
           </argument>
         </arguments>

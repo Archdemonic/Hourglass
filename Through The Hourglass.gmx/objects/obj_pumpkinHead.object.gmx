@@ -75,7 +75,7 @@ alarm[0] = room_speed*90
             <kind>1</kind>
             <string>image_angle -= 4
 
-if collision_circle(x,y,100,obj_explosion,true,true)
+if collision_circle(x,y,80,obj_explosion,true,true)
 {
     hp -= 50
 }
