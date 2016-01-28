@@ -774,6 +774,12 @@ if bomb = true
     instance_create(x,y+24,obj_tomatoPlaced)
     bomb = false
 }
+
+if global.pickle = true
+{
+    instance_create(x,y,obj_pickle)
+    global.pickle = false
+}
 </string>
           </argument>
         </arguments>

@@ -177,6 +177,7 @@
       <object>objects\obj_tomato</object>
       <object>objects\obj_tomatoPlaced</object>
       <object>objects\obj_explosion</object>
+      <object>objects\obj_pickle</object>
     </objects>
     <objects name="Control">
       <object>objects\obj_boarder</object>
