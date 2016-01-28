@@ -109,7 +109,7 @@
       <sprite>sprites\spr_candle</sprite>
       <sprite>sprites\anim</sprite>
       <sprite>sprites\spr_brocIsland</sprite>
-      <sprite>sprites\sprite102</sprite>
+      <sprite>sprites\spr_well</sprite>
       <sprite>sprites\spr_tree</sprite>
     </sprites>
     <sprites name="Story">
@@ -166,6 +166,8 @@
       <object>objects\obj_pumpkinHead</object>
       <object>objects\obj_fireball</object>
       <object>objects\obj_ovenGuardian</object>
+      <object>objects\obj_boomerangFlower</object>
+      <object>objects\obj_boomerang</object>
     </objects>
     <objects name="Powerups">
       <object>objects\obj_staminaCandy</object>
