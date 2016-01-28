@@ -26,9 +26,32 @@
           <argument>
             <kind>1</kind>
             <string>hp = 30
+dontkill = true
 doublecheck = false
 image_speed = 0
-headback = false
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="2">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>dontkill = false
 </string>
           </argument>
         </arguments>
@@ -74,10 +97,10 @@ headback = false
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if collision_circle(x,y,180,obj_player,true,true) &amp;&amp; image_index = 0
+            <string>if collision_circle(x,y,220,obj_player,true,true) &amp;&amp; image_index = 0
 {
-    instance_create(x,y+48,obj_boomerang)
-    headback = false
+    instance_create(x,y,obj_boomerang)
+    alarm[2] = room_speed*4
     image_index = 1
 }
 alarm[1] = room_speed*15
@@ -104,7 +127,7 @@ doublecheck = false
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if collision_circle(x,y,180,obj_player,true,true)
+            <string>if collision_circle(x,y,220,obj_player,true,true)
 {
     if doublecheck = false
     {
@@ -126,11 +149,6 @@ if mouse_check_button_pressed(mb_left) &amp;&amp; global.stamina &gt; 0
     {
         hp -= 15
     }
-}
-
-if headback = true
-{
-    image_index = 0
 }
 
 if hp &lt;= 0
@@ -205,25 +223,17 @@ if hp &lt;= 0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>headback = true
-image_index = 0
+            <string>if dontkill = false
+{
+    image_index = 0
+    with(other)
+    {
+        instance_destroy()
+    }
+}
 </string>
           </argument>
         </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>203</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_kill_object</functionname>
-        <codestring></codestring>
-        <whoName>other</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
       </action>
     </event>
   </events>
