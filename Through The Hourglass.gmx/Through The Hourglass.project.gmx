@@ -55,6 +55,7 @@
     </sprites>
     <sprites name="Minions">
       <sprite>sprites\spr_sandMinion</sprite>
+      <sprite>sprites\spr_pickler</sprite>
       <sprite>sprites\spr_carrortMinion</sprite>
       <sprite>sprites\spr_jelloMinion</sprite>
     </sprites>
@@ -125,7 +126,7 @@
       <sprite>sprites\spr_boarder</sprite>
       <sprite>sprites\spr_polymorphicTri</sprite>
     </sprites>
-    <sprite>sprites\spr_pickler</sprite>
+    <sprite>sprites\sprite102</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Counter Tiles">
