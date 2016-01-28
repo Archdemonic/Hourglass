@@ -109,7 +109,6 @@
       <sprite>sprites\spr_candle</sprite>
       <sprite>sprites\anim</sprite>
       <sprite>sprites\spr_brocIsland</sprite>
-      <sprite>sprites\sprite102</sprite>
       <sprite>sprites\spr_tree</sprite>
     </sprites>
     <sprites name="Story">
@@ -127,6 +126,7 @@
       <sprite>sprites\spr_boarder</sprite>
       <sprite>sprites\spr_polymorphicTri</sprite>
     </sprites>
+    <sprite>sprites\sprite102</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Counter Tiles">
