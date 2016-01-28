@@ -26,6 +26,10 @@
           <argument>
             <kind>1</kind>
             <string>alarm[0] = room_speed*4
+goback = false
+x2 = x
+y2 = y
+image_speed = 0.8
 </string>
           </argument>
         </arguments>
@@ -48,7 +52,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_destroy()
+            <string>goback = true
+move_towards_point(x2,y2,6)
 </string>
           </argument>
         </arguments>
@@ -71,7 +76,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>move_towards_point(obj_player.x,obj_player.y,6)
+            <string>if goback = false
+{
+    move_towards_point(obj_player.x,obj_player.y,6)
+}
 </string>
           </argument>
         </arguments>
