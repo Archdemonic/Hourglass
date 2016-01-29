@@ -103,7 +103,7 @@ firstcheck = false
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if collision_circle(x,y,246,obj_player,true,true) &amp;&amp; timer = false
+            <string>if collision_circle(x,y,280,obj_player,true,true) &amp;&amp; timer = false
 {
     image_speed = 0.5
     alarm[1] = room_speed*3
@@ -136,7 +136,7 @@ if collision_circle(x,y,80,obj_explosion,true,true)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if collision_circle(x,y,246,obj_player,true,true)
+            <string>if collision_circle(x,y,280,obj_player,true,true)
 {
     if sprite_index = spr_ovenGuardian
     {
@@ -148,7 +148,7 @@ else
     sprite_index = spr_ovenDeact
 }
 
-if !collision_circle(x,y,246,obj_player,true,true)
+if !collision_circle(x,y,280,obj_player,true,true)
 {
     if sprite_index = spr_ovenDeact
     {
