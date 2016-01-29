@@ -25,56 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hp = 30
-dontkill = true
+            <string>image_speed = 0.3
 doublecheck = false
-image_speed = 0
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="2">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>dontkill = false
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="1">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>image_index = 0
+hp = 30
 </string>
           </argument>
         </arguments>
@@ -97,14 +50,7 @@ image_speed = 0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if collision_circle(x,y,220,obj_player,true,true) &amp;&amp; image_index = 0
-{
-    instance_create(x,y,obj_boomerang)
-    alarm[2] = room_speed*4
-    image_index = 1
-}
-alarm[1] = room_speed*15
-doublecheck = false
+            <string>doublecheck = false
 </string>
           </argument>
         </arguments>
@@ -127,20 +73,18 @@ doublecheck = false
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if collision_circle(x,y,220,obj_player,true,true)
+            <string>if collision_circle(x,y,240,obj_player,true,true) &amp;&amp; doublecheck = false
 {
-    if doublecheck = false
-    {
-        alarm[0] = room_speed*4
-        doublecheck = true
-    }
+    instance_create(x,y,obj_boom_attack)
+    doublecheck = true
+    alarm[0] = room_speed*7
 }
 
 if mouse_check_button_pressed(mb_right) &amp;&amp; global.stamina &gt; 1
 {
     if collision_circle(x,y,82,obj_player,true,true)
     {
-        hp -= 20
+        hp -= 30
     }
 }
 if mouse_check_button_pressed(mb_left) &amp;&amp; global.stamina &gt; 0
@@ -188,52 +132,6 @@ if hp &lt;= 0
         <whoName>other</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
-      </action>
-    </event>
-    <event eventtype="4" ename="obj_explosion">
-      <action>
-        <libid>1</libid>
-        <id>203</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_kill_object</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-      </action>
-    </event>
-    <event eventtype="4" ename="obj_boomerang">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if dontkill = false
-{
-    image_index = 0
-    with(other)
-    {
-        instance_destroy()
-    }
-}
-</string>
-          </argument>
-        </arguments>
       </action>
     </event>
   </events>

@@ -29,7 +29,6 @@
     <sprites name="Enemies">
       <sprite>sprites\spr_iceCube</sprite>
       <sprite>sprites\spr_boomerangFlower</sprite>
-      <sprite>sprites\sprite102</sprite>
       <sprite>sprites\boom_attack</sprite>
       <sprite>sprites\spr_jellyFish</sprite>
       <sprite>sprites\spr_pumpkinPlant</sprite>
@@ -111,11 +110,11 @@
       <sprite>sprites\anim</sprite>
       <sprite>sprites\spr_brocIsland</sprite>
       <sprite>sprites\spr_well</sprite>
-      <sprite>sprites\sprite104</sprite>
+      <sprite>sprites\spr_house</sprite>
       <sprite>sprites\spr_tree</sprite>
-      <sprite>sprites\sprite105</sprite>
-      <sprite>sprites\sprite106</sprite>
-      <sprite>sprites\sprite107</sprite>
+      <sprite>sprites\spr_button</sprite>
+      <sprite>sprites\spr_buttonAn</sprite>
+      <sprite>sprites\spr_flower</sprite>
     </sprites>
     <sprites name="Story">
       <sprite>sprites\sprite86</sprite>
@@ -163,7 +162,6 @@
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\obj_player</object>
     <objects name="obj_Enemies">
       <object>objects\obj_candyMan</object>
       <object>objects\obj_cherryBomb</object>
@@ -172,8 +170,9 @@
       <object>objects\obj_pumpkinHead</object>
       <object>objects\obj_fireball</object>
       <object>objects\obj_ovenGuardian</object>
+      <object>objects\obj_icecube</object>
       <object>objects\obj_boomerangFlower</object>
-      <object>objects\obj_boomerang</object>
+      <object>objects\obj_boom_attack</object>
     </objects>
     <objects name="Powerups">
       <object>objects\obj_staminaCandy</object>
@@ -181,7 +180,6 @@
       <object>objects\obj_goldToast</object>
       <object>objects\obj_staminaMaxOut</object>
     </objects>
-    <object>objects\obj_sandwichKnight_Incomplete_</object>
     <objects name="Enviornmental">
       <object>objects\obj_tomato</object>
       <object>objects\obj_tomatoPlaced</object>
@@ -197,6 +195,10 @@
     </objects>
     <objects name="Minions">
       <object>objects\obj_sandwichMinion</object>
+    </objects>
+    <objects name="Players">
+      <object>objects\obj_player</object>
+      <object>objects\obj_sandwichKnight</object>
     </objects>
   </objects>
   <rooms name="rooms">
