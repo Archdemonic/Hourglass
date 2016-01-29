@@ -112,6 +112,7 @@
       <sprite>sprites\spr_brocIsland</sprite>
       <sprite>sprites\spr_well</sprite>
       <sprite>sprites\spr_tree</sprite>
+      <sprite>sprites\spr_water</sprite>
     </sprites>
     <sprites name="Story">
       <sprite>sprites\sprite86</sprite>
@@ -170,6 +171,7 @@
       <object>objects\obj_ovenGuardian</object>
       <object>objects\obj_boomerangFlower</object>
       <object>objects\obj_boomerang</object>
+      <object>objects\obj_icecube</object>
     </objects>
     <objects name="Powerups">
       <object>objects\obj_staminaCandy</object>
