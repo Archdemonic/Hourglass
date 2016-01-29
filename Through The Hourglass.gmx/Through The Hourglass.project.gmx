@@ -29,7 +29,6 @@
     <sprites name="Enemies">
       <sprite>sprites\spr_iceCube</sprite>
       <sprite>sprites\spr_boomerangFlower</sprite>
-      <sprite>sprites\sprite102</sprite>
       <sprite>sprites\boom_attack</sprite>
       <sprite>sprites\spr_jellyFish</sprite>
       <sprite>sprites\spr_pumpkinPlant</sprite>
@@ -172,6 +171,8 @@
       <object>objects\obj_fireball</object>
       <object>objects\obj_ovenGuardian</object>
       <object>objects\obj_icecube</object>
+      <object>objects\obj_boomerangFlower</object>
+      <object>objects\obj_boom_attack</object>
     </objects>
     <objects name="Powerups">
       <object>objects\obj_staminaCandy</object>

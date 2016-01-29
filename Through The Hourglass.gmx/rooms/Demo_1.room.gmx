@@ -258,6 +258,7 @@
     <instance objName="obj_boarder" x="1008" y="496" name="inst_796FDC56" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="&lt;undefined&gt;" x="496" y="176" name="inst_02FFEDCA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sandwichMinion" x="192" y="672" name="inst_E5D969D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_boomerangFlower" x="496" y="192" name="inst_A78E8F2F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background17" x="128" y="640" w="64" h="64" xo="256" yo="256" id="10000017" name="inst_C1BFE8A2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
