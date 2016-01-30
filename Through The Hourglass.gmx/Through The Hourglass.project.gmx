@@ -206,7 +206,9 @@
       <room>rooms\Instructions</room>
     </rooms>
     <room>rooms\room4</room>
-    <room>rooms\room5</room>
+    <rooms name="Act One">
+      <room>rooms\room5</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
