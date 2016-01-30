@@ -173,7 +173,7 @@
       <object>objects\obj_fireball</object>
       <object>objects\obj_ovenGuardian</object>
       <object>objects\obj_boomerangFlower</object>
-      <object>objects\obj_boomerang</object>
+      <object>objects\obj_boom_attack</object>
     </objects>
     <objects name="Powerups">
       <object>objects\obj_staminaCandy</object>
@@ -206,6 +206,7 @@
       <room>rooms\Instructions</room>
     </rooms>
     <room>rooms\room4</room>
+    <room>rooms\room5</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
