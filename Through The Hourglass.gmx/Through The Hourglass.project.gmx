@@ -163,7 +163,6 @@
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\obj_player</object>
     <objects name="obj_Enemies">
       <object>objects\obj_candyMan</object>
       <object>objects\obj_cherryBomb</object>
@@ -181,12 +180,12 @@
       <object>objects\obj_goldToast</object>
       <object>objects\obj_staminaMaxOut</object>
     </objects>
-    <object>objects\obj_sandwichKnight_Incomplete_</object>
     <objects name="Enviornmental">
       <object>objects\obj_tomato</object>
       <object>objects\obj_tomatoPlaced</object>
       <object>objects\obj_explosion</object>
       <object>objects\obj_pickle</object>
+      <object>objects\obj_wishingWell</object>
     </objects>
     <objects name="Control">
       <object>objects\obj_boarder</object>
@@ -197,6 +196,10 @@
     </objects>
     <objects name="Minions">
       <object>objects\obj_sandwichMinion</object>
+    </objects>
+    <objects name="Players">
+      <object>objects\obj_player</object>
+      <object>objects\obj_sandwichKnight_Incomplete_</object>
     </objects>
   </objects>
   <rooms name="rooms">
