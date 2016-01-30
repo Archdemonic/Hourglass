@@ -124,7 +124,7 @@
       <sprite>sprites\sprite87</sprite>
       <sprite>sprites\spr_gemObjective</sprite>
       <sprite>sprites\spr_gemWall</sprite>
-      <sprite>sprites\sprite103</sprite>
+      <sprite>sprites\spr_crown</sprite>
     </sprites>
     <sprites name="Control">
       <sprite>sprites\spr_menu</sprite>
@@ -205,9 +205,11 @@
       <room>rooms\Settings</room>
       <room>rooms\Instructions</room>
     </rooms>
-    <room>rooms\room4</room>
     <rooms name="Act One">
-      <room>rooms\room5</room>
+      <room>rooms\Beginning</room>
+    </rooms>
+    <rooms name="Transitions">
+      <room>rooms\Ladder</room>
     </rooms>
   </rooms>
   <help>
