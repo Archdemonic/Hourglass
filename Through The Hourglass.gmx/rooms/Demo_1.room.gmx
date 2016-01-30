@@ -141,6 +141,7 @@
     <instance objName="obj_boarder" x="1008" y="464" name="inst_C69C4898" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_boarder" x="1008" y="480" name="inst_093110C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_boarder" x="1008" y="496" name="inst_796FDC56" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+<<<<<<< HEAD
     <instance objName="obj_cliff_Boarder" x="208" y="528" name="inst_88CFFFEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cliff_Boarder" x="240" y="528" name="inst_B6C3B0A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cliff_Boarder" x="272" y="528" name="inst_6C9F5FFB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -312,6 +313,9 @@
     <instance objName="obj_boarder" x="848" y="16" name="inst_08655E43" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_boarder" x="880" y="16" name="inst_5A883564" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_boarder" x="912" y="32" name="inst_B5E19E1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+=======
+    <instance objName="obj_boomerangFlower" x="512" y="192" name="inst_BFC5EC58" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+>>>>>>> origin/master
   </instances>
   <tiles>
     <tile bgName="background17" x="128" y="640" w="64" h="64" xo="256" yo="256" id="10000017" name="inst_C1BFE8A2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
