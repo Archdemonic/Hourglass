@@ -159,6 +159,11 @@ if global.stamina &lt; 0
 {
     global.stamina = 0
 }
+
+if lives &lt;= 0
+{
+    room_restart()
+}
 </string>
           </argument>
         </arguments>
