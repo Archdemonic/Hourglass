@@ -90,9 +90,9 @@
         <sprite>sprites\sprite75_sprite122_0</sprite>
         <sprite>sprites\sprite78_sprite125_0</sprite>
         <sprite>sprites\sprite77_sprite124_0</sprite>
-        <sprite>sprites\sprite79_sprite113_0</sprite>
         <sprite>sprites\sprite80_sprite114_0</sprite>
         <sprite>sprites\sprite81_sprite115_0</sprite>
+        <sprite>sprites\sprite79_sprite113_0</sprite>
         <sprite>sprites\sprite82_sprite116_0</sprite>
         <sprite>sprites\spr_ground</sprite>
         <sprite>sprites\sprite83_sprite117_0</sprite>
@@ -103,6 +103,7 @@
         <sprite>sprites\sprite99</sprite>
         <sprite>sprites\sprite101</sprite>
         <sprite>sprites\sprite100</sprite>
+        <sprite>sprites\sprite108</sprite>
       </sprites>
       <sprite>sprites\spr_tomatoeEx</sprite>
       <sprite>sprites\spr_meltedIce</sprite>
@@ -125,6 +126,7 @@
       <sprite>sprites\spr_gemObjective</sprite>
       <sprite>sprites\spr_gemWall</sprite>
       <sprite>sprites\spr_crown</sprite>
+      <sprite>sprites\sprite103</sprite>
     </sprites>
     <sprites name="Control">
       <sprite>sprites\spr_menu</sprite>
@@ -133,7 +135,6 @@
       <sprite>sprites\spr_boarder</sprite>
       <sprite>sprites\spr_polymorphicTri</sprite>
     </sprites>
-    <sprite>sprites\sprite103</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Counter Tiles">
