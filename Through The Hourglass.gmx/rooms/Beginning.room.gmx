@@ -52,6 +52,7 @@
   </views>
   <instances>
     <instance objName="obj_player" x="320" y="400" name="inst_BD97E3E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+<<<<<<< HEAD
     <instance objName="obj_wishingWell" x="496" y="192" name="inst_4CF807AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_blueberryBomb" x="464" y="112" name="inst_77AFAB42" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_boomerangFlower" x="944" y="192" name="inst_72E396D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -70,6 +71,13 @@
     <instance objName="obj_candyMan" x="704" y="688" name="inst_FF3BB51D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_candyMan" x="272" y="656" name="inst_9517E2E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_candyMan" x="768" y="112" name="inst_FF207E1E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+=======
+    <instance objName="obj_boarder" x="16" y="384" name="inst_AC77E37D" locked="0" code="" scaleX="1" scaleY="-24.1612911224365" colour="4294967295" rotation="0"/>
+    <instance objName="obj_boarder" x="528" y="16" name="inst_43979D18" locked="0" code="" scaleX="31.75" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_boarder" x="1008" y="384" name="inst_16FE59F6" locked="0" code="" scaleX="1" scaleY="24" colour="4294967295" rotation="0"/>
+    <instance objName="obj_boarder" x="512" y="752" name="inst_4FEC1286" locked="0" code="" scaleX="30.59375" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wishingWell" x="512" y="192" name="inst_4CF807AC" locked="0" code="" scaleX="1.5" scaleY="1.16666662693024" colour="4294967295" rotation="0"/>
+>>>>>>> origin/master
   </instances>
   <tiles>
     <tile bgName="background19" x="0" y="0" w="64" h="64" xo="64" yo="64" id="10000049" name="inst_E5F3CBA2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
