@@ -132,6 +132,7 @@
       <sprite>sprites\spr_cliff_Boarder</sprite>
       <sprite>sprites\spr_boarder</sprite>
       <sprite>sprites\spr_polymorphicTri</sprite>
+      <sprite>sprites\spr_playerChoose</sprite>
     </sprites>
     <sprite>sprites\sprite103</sprite>
   </sprites>
@@ -195,13 +196,13 @@
       <object>objects\obj_menu</object>
       <object>objects\obj_cliff_Boarder</object>
       <object>objects\obj_settingsMenu</object>
+      <object>objects\obj_playerselect</object>
     </objects>
     <objects name="Minions">
       <object>objects\obj_sandwichMinion</object>
     </objects>
     <objects name="Players">
       <object>objects\obj_player</object>
-      <object>objects\obj_sandwichKnight_Incomplete_</object>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -209,6 +210,7 @@
       <room>rooms\Menu</room>
       <room>rooms\Settings</room>
       <room>rooms\Instructions</room>
+      <room>rooms\room5</room>
     </rooms>
     <rooms name="Act One">
       <room>rooms\Beginning</room>
