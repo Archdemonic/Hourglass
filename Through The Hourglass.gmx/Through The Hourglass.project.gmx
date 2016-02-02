@@ -136,7 +136,7 @@
     </sprites>
     <sprite>sprites\sprite103</sprite>
     <sprite>sprites\sprite_108</sprite>
-    <sprite>sprites\spr_bob</sprite>
+    <sprite>sprites\spr_bobby</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Counter Tiles">
