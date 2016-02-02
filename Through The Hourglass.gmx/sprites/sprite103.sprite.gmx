@@ -10,15 +10,24 @@
   <bbox_left>1</bbox_left>
   <bbox_right>47</bbox_right>
   <bbox_top>1</bbox_top>
+<<<<<<< HEAD
   <bbox_bottom>76</bbox_bottom>
+=======
+  <bbox_bottom>29</bbox_bottom>
+>>>>>>> parent of 7bec20f... hourglass
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
+<<<<<<< HEAD
   <width>49</width>
   <height>78</height>
+=======
+  <width>32</width>
+  <height>32</height>
+>>>>>>> parent of 7bec20f... hourglass
   <frames>
     <frame index="0">images\sprite103_0.png</frame>
   </frames>
