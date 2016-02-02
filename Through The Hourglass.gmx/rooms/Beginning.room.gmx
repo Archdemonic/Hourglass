@@ -56,23 +56,7 @@
     <instance objName="obj_boarder" x="528" y="16" name="inst_43979D18" locked="0" code="" scaleX="31.75" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_boarder" x="1008" y="384" name="inst_16FE59F6" locked="0" code="" scaleX="1" scaleY="24" colour="4294967295" rotation="0"/>
     <instance objName="obj_boarder" x="512" y="752" name="inst_4FEC1286" locked="0" code="" scaleX="30.59375" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wishingWell" x="496" y="160" name="inst_4CF807AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_blueberryBomb" x="464" y="112" name="inst_77AFAB42" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_boomerangFlower" x="912" y="80" name="inst_72E396D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_boomerangFlower" x="928" y="96" name="inst_73537E53" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_pumpkinPlant" x="928" y="64" name="inst_11E8DD75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_staminaMaxOut" x="80" y="96" name="inst_EEC9EB0E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_staminaMaxOut" x="816" y="464" name="inst_4D3FC031" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_toast" x="288" y="80" name="inst_C539065A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_toast" x="96" y="672" name="inst_951F1773" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ovenGuardian" x="960" y="672" name="inst_421D3C4F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_sandwichMinion" x="160" y="352" name="inst_DCFB6360" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_cherryBomb" x="960" y="64" name="inst_BB6954AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_cherryBomb" x="528" y="112" name="inst_B3F86A05" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_cherryBomb" x="608" y="608" name="inst_9D24FBD2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_cherryBomb" x="768" y="512" name="inst_D6F568AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_candyMan" x="704" y="688" name="inst_FF3BB51D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_candyMan" x="272" y="656" name="inst_9517E2E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wishingWell" x="512" y="192" name="inst_4CF807AC" locked="0" code="" scaleX="1.5" scaleY="1.16666662693024" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background18" x="0" y="640" w="128" h="128" xo="0" yo="128" id="10000001" name="inst_AC7591BC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
