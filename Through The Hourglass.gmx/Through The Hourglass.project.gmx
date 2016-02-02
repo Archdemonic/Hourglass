@@ -90,9 +90,9 @@
         <sprite>sprites\sprite75_sprite122_0</sprite>
         <sprite>sprites\sprite78_sprite125_0</sprite>
         <sprite>sprites\sprite77_sprite124_0</sprite>
+        <sprite>sprites\sprite79_sprite113_0</sprite>
         <sprite>sprites\sprite80_sprite114_0</sprite>
         <sprite>sprites\sprite81_sprite115_0</sprite>
-        <sprite>sprites\sprite79_sprite113_0</sprite>
         <sprite>sprites\sprite82_sprite116_0</sprite>
         <sprite>sprites\spr_ground</sprite>
         <sprite>sprites\sprite83_sprite117_0</sprite>
@@ -103,7 +103,6 @@
         <sprite>sprites\sprite99</sprite>
         <sprite>sprites\sprite101</sprite>
         <sprite>sprites\sprite100</sprite>
-        <sprite>sprites\sprite108</sprite>
       </sprites>
       <sprite>sprites\spr_tomatoeEx</sprite>
       <sprite>sprites\spr_meltedIce</sprite>
@@ -126,7 +125,6 @@
       <sprite>sprites\spr_gemObjective</sprite>
       <sprite>sprites\spr_gemWall</sprite>
       <sprite>sprites\spr_crown</sprite>
-      <sprite>sprites\sprite103</sprite>
     </sprites>
     <sprites name="Control">
       <sprite>sprites\spr_menu</sprite>
@@ -134,7 +132,11 @@
       <sprite>sprites\spr_cliff_Boarder</sprite>
       <sprite>sprites\spr_boarder</sprite>
       <sprite>sprites\spr_polymorphicTri</sprite>
+      <sprite>sprites\spr_playerChoose</sprite>
     </sprites>
+    <sprite>sprites\sprite103</sprite>
+    <sprite>sprites\sprite_108</sprite>
+    <sprite>sprites\spr_bob</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Counter Tiles">
@@ -196,13 +198,13 @@
       <object>objects\obj_menu</object>
       <object>objects\obj_cliff_Boarder</object>
       <object>objects\obj_settingsMenu</object>
+      <object>objects\obj_playerselect</object>
     </objects>
     <objects name="Minions">
       <object>objects\obj_sandwichMinion</object>
     </objects>
     <objects name="Players">
       <object>objects\obj_player</object>
-      <object>objects\obj_sandwichKnight_Incomplete_</object>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -210,6 +212,7 @@
       <room>rooms\Menu</room>
       <room>rooms\Settings</room>
       <room>rooms\Instructions</room>
+      <room>rooms\room5</room>
     </rooms>
     <rooms name="Act One">
       <room>rooms\Beginning</room>

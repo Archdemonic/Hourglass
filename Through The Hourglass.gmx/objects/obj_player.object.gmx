@@ -36,6 +36,11 @@ bomb = false
 global.playerRight = true
 global.playerLeft = false
 global.moving = false
+
+if global.player = "sandwichknight"
+{
+    sprite_index = (spr_sandwichWalk)
+}
 </string>
           </argument>
         </arguments>
@@ -88,30 +93,66 @@ if global.stamina &lt; global.maxstamina
             <kind>1</kind>
             <string>if keyboard_check(ord('W')) &amp;&amp; keyboard_check(ord('D'))
 {
-    y -= 1.5
-    x += 1.5
-    sprite_index = spr_candyKnightWalk
+    if global.player = "candyknight"
+    {
+        y -= 1.5
+        x += 1.5
+        sprite_index = spr_candyKnightWalk
+    }
+    else
+    {
+        y -= 1.5
+        x += 1.5
+        sprite_index = spr_sandwichWalk
+    }
 }
 else
 if keyboard_check(ord('W')) &amp;&amp; keyboard_check(ord('A'))
 {
-    y -= 1.5
-    x -= 1.5
-    sprite_index = spr_candyKnightWalk
+    if global.player = "candyknight"
+    {
+        y -= 1.5
+        x -= 1.5
+        sprite_index = spr_candyKnightWalk
+    }
+    else
+    {
+        y -= 1.5
+        x -= 1.5
+        sprite_index = spr_sandwichWalk
+    }
 }
 else
 if keyboard_check(ord('A')) &amp;&amp; keyboard_check(ord('S'))
 {
-    y += 1.5
-    x -= 1.5
-    sprite_index = spr_candyKnightWalk
+    if global.player = "candyknight"
+    {
+        y += 1.5
+        x -= 1.5
+        sprite_index = spr_candyKnightWalk
+    }
+    else
+    {
+        y += 1.5
+        x -= 1.5
+        sprite_index = spr_sandwichWalk
+    }
 }
 else
 if keyboard_check(ord('S')) &amp;&amp; keyboard_check(ord('D'))
 {
-    y += 1.5
-    x += 1.5
-    sprite_index = spr_candyKnightWalk
+    if global.player = "candyknight"
+    {
+        y += 1.5
+        x += 1.5
+        sprite_index = spr_candyKnightWalk
+    }
+    else
+    {
+        y += 1.5
+        x += 1.5
+        sprite_index = spr_sandwichWalk
+    }
 }
 
 if lives &gt; maxlives 
@@ -119,7 +160,7 @@ if lives &gt; maxlives
     lives = maxlives
 }
 
-if sprite_index = spr_candyKnightIdle
+if sprite_index = spr_candyKnightIdle or spr_sandwichWalk
 {
     image_speed = 0.25
 }
@@ -129,7 +170,14 @@ else
 }
 if mouse_check_button(mb_left) &amp;&amp; global.stamina &gt; 0
 {
-    sprite_index = spr_candyKnightOne
+    if global.player = candyknight
+    {
+        sprite_index = spr_candyKnightOne
+    }
+    else
+    {
+        sprite_index = spr_sandwichWalk
+    }
 }
 
 if mouse_check_button(mb_right) &amp;&amp; global.stamina &gt; 1
@@ -452,9 +500,18 @@ lives += 1
             <kind>1</kind>
             <string>if keyboard_check(ord('W'))
 {
-    y -= 6
-    sprite_index = spr_candyKnightWalk
-    global.moving = true
+    if global.player = "candyknight"
+    {
+        y -= 6
+        sprite_index = spr_candyKnightWalk
+        global.moving = true
+    }
+    else
+    {
+        y -= 6
+        sprite_index = spr_sandwichWalk
+        global.moving = true
+    }
 }
 </string>
           </argument>
@@ -480,9 +537,18 @@ lives += 1
             <kind>1</kind>
             <string>if keyboard_check(ord('S'))
 {
-    y += 6
-    sprite_index = spr_candyKnightWalk
-    global.moving = true
+    if global.player = "candyknight"
+    {
+        y += 6
+        sprite_index = spr_candyKnightWalk
+        global.moving = true
+    }
+    else
+    {
+        y += 6
+        sprite_index = spr_sandwichWalk
+        global.moving = true
+    }
 }
 </string>
           </argument>
@@ -508,11 +574,22 @@ lives += 1
             <kind>1</kind>
             <string>if keyboard_check(ord('D'))
 {
-    x += 6
-    sprite_index = spr_candyKnightWalk
-    global.playerRight = true
-    global.playerLeft = false
-    global.moving = true
+    if global.player = "candyknight"
+    {
+        x += 6
+        sprite_index = spr_candyKnightWalk
+        global.playerRight = true
+        global.playerLeft = false
+        global.moving = true
+    }
+    else
+    {
+        x += 6
+        sprite_index = spr_sandwichWalk
+        global.playerRight = true
+        global.playerLeft = false
+        global.moving = true
+    }
 }
 </string>
           </argument>
@@ -570,11 +647,22 @@ lives += 1
             <kind>1</kind>
             <string>if keyboard_check(ord('A'))
 {
-    x -= 6
-    sprite_index = spr_candyKnightWalk
-    global.playerLeft = true
-    global.playerRight = false
-    global.moving = true
+    if global.player = "candyknight"
+    {
+        x -= 6
+        sprite_index = spr_candyKnightWalk
+        global.playerLeft = true
+        global.playerRight = false
+        global.moving = true
+    }
+    else
+    {
+        x -= 6
+        sprite_index = spr_sandwichWalk
+        global.playerLeft = true
+        global.playerRight = false
+        global.moving = true
+    }
 }
 </string>
           </argument>
@@ -780,6 +868,36 @@ if bomb = true
           <argument>
             <kind>1</kind>
             <string>room_goto(Menu)
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="10" enumb="17">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if global.player = "candyknight"
+{
+    global.player = "sandwichknight"
+}
+else
+{
+    global.player = "candyknight"
+}
 </string>
           </argument>
         </arguments>
