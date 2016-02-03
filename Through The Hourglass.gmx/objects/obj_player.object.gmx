@@ -92,7 +92,7 @@ if global.stamina &lt; global.maxstamina
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if keyboard_check(ord('W')) &amp;&amp; keyboard_check(ord('D')) &amp;&amp; place_empty(x+10,y-10)
+            <string>if keyboard_check(ord('W')) &amp;&amp; keyboard_check(ord('D')) &amp;&amp; place_empty(x+3,y-3)
 {
     if global.player = "candyknight"
     {
@@ -108,7 +108,7 @@ if global.stamina &lt; global.maxstamina
     }
 }
 else
-if keyboard_check(ord('W')) &amp;&amp; keyboard_check(ord('A'))  &amp;&amp; place_empty(x-10,y-10)
+if keyboard_check(ord('W')) &amp;&amp; keyboard_check(ord('A'))  &amp;&amp; place_empty(x-3,y-3)
 {
     if global.player = "candyknight"
     {
@@ -124,7 +124,7 @@ if keyboard_check(ord('W')) &amp;&amp; keyboard_check(ord('A'))  &amp;&amp; plac
     }
 }
 else
-if keyboard_check(ord('A')) &amp;&amp; keyboard_check(ord('S'))  &amp;&amp; place_empty(x-10,y+10)
+if keyboard_check(ord('A')) &amp;&amp; keyboard_check(ord('S'))  &amp;&amp; place_empty(x-3,y+3)
 {
     if global.player = "candyknight"
     {
@@ -140,7 +140,7 @@ if keyboard_check(ord('A')) &amp;&amp; keyboard_check(ord('S'))  &amp;&amp; plac
     }
 }
 else
-if keyboard_check(ord('S')) &amp;&amp; keyboard_check(ord('D'))  &amp;&amp; place_empty(x+10,y+10)
+if keyboard_check(ord('S')) &amp;&amp; keyboard_check(ord('D'))  &amp;&amp; place_empty(x+3,y+3)
 {
     if global.player = "candyknight"
     {
@@ -171,7 +171,7 @@ else
 }
 if mouse_check_button(mb_left) &amp;&amp; global.stamina &gt; 0
 {
-    if global.player = candyknight
+    if global.player = "candyknight"
     {
         sprite_index = spr_candyKnightOne
     }
@@ -499,7 +499,7 @@ lives += 1
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if keyboard_check(ord('W')) &amp;&amp; place_empty(x,y+10)
+            <string>if keyboard_check(ord('W')) &amp;&amp; place_empty(x,y-10)
 {
     if global.player = "candyknight"
     {
@@ -536,7 +536,7 @@ lives += 1
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if keyboard_check(ord('S')) &amp;&amp; place_empty(x,y-10)
+            <string>if keyboard_check(ord('S')) &amp;&amp; place_empty(x,y+10)
 {
     if global.player = "candyknight"
     {

@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if collision_circle(x,y,80,obj_player,true,true)
+            <string>if collision_circle(x,y,180,obj_player,true,true)
 {
     if keyboard_check_pressed(vk_enter)
     {
